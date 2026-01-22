@@ -1,0 +1,152 @@
+/* --- Playground-safe centering --- */
+.login-wrapper {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+}
+
+/* --- Phone canvas --- */
+.login {
+    position: relative;
+    width: 100%;
+    max-width: 375px;
+    aspect-ratio: 375 / 812;
+    background-color: #efeff4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* --- Header --- */
+.login-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 88px;
+    width: 100%;
+    background-color: #efeff4;
+}
+
+.back-icon {
+    position: absolute;
+    left: 16px;
+    top: 32px;
+    width: 24px;
+    height: 24px;
+}
+
+/* --- Background image --- */
+.background-image {
+    position: absolute;
+    top: 128px;
+    left: 0;
+    width: 100%;
+    height: 684px;
+    object-fit: cover;
+}
+
+/* --- Title --- */
+.login-title {
+    position: absolute;
+    top: 152px;
+    left: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #343434;
+}
+
+/* --- Form --- */
+.login-form {
+    position: relative;
+}
+
+.input-field {
+    position: absolute;
+    left: 24px;
+    width: calc(100% - 48px);
+    height: 64px;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.input-field input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 8px;
+}
+
+.email-field {
+    top: 224px;
+}
+
+.password-field {
+    top: 304px;
+}
+
+/* --- Button --- */
+.login-button {
+    position: absolute;
+    top: 400px;
+    left: 24px;
+    width: calc(100% - 48px);
+    padding: 17px 10px;
+    background-color: #2870ed;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+/* --- Social login --- */
+.social-login {
+    position: absolute;
+    top: 558px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 64px;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+}
+
+/* --- Bottom block --- */
+.text-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 24px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    width: 190px;
+    height: 10px;
+    background-color: #efeff4;
+    border-radius: 10px;
+}

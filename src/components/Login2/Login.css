@@ -1,0 +1,136 @@
+.login {
+  background-color: #efeff4;
+  overflow: clip;
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.login-header {
+  position: absolute;
+  background-color: #efeff4;
+  height: 88px;
+  left: 0;
+  overflow: clip;
+  top: 0;
+  width: 375px;
+}
+
+.back-icon {
+  position: absolute;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  top: 32px;
+}
+
+.background-image {
+  position: absolute;
+  height: 684px;
+  left: 0;
+  top: 128px;
+  width: 375px;
+}
+
+.login-title {
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 48px;
+  left: 24px;
+  color: #343434;
+  font-size: 32px;
+  top: 152px;
+}
+
+.login-form {
+  position: relative;
+}
+
+.input-field {
+  position: absolute;
+  height: 64px;
+  left: 24px;
+  width: 327px;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input-field input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.email-field {
+  top: 224px;
+}
+
+.password-field {
+  top: 304px;
+}
+
+.login-button {
+  position: absolute;
+  background-color: #2870ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 24px;
+  padding: 17px 10px;
+  border-radius: 8px;
+  top: 400px;
+  width: 327px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.social-login {
+  position: absolute;
+  top: 558px;
+  left: 107px;
+  display: flex;
+  gap: 64px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.text-block {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  padding: 24px;
+  top: 738px;
+  width: 375px;
+}
+
+.divider {
+  height: 10px;
+  width: 190px;
+  background-color: #efeff4;
+  border-radius: 10px;
+}
