@@ -1,73 +1,64 @@
-# React + TypeScript + Vite
+# Design System Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **small, self-contained design system** built with **React, TypeScript, and Vite**.
 
-Currently, two official plugins are available:
+It is intended for an **easy usage** setup, where you can:
+- Explore ready-made UI components
+- Preview them locally in a playground
+- Copy, modify, and compose them quickly
+- Follow clear, lightweight documentation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What’s inside
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Components
+Reusable UI components implemented in React + TypeScript.
 
-## Expanding the ESLint configuration
+All components live in: **src/components/**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+They are designed to be:
+- Self-contained
+- Easy to read
+- Easy to copy into another project
+- Visually consistent with the Figma design system
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Playground
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+A local sandbox for previewing components during development under **src/playground/**.
+
+The playground renders a blank page where you can import and display any component:
+```tsx
+import { Login } from '../components'
+
+export function Playground() {
+  return <Login />
+}
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+Run locally with:
+```bash
+    npm install
+    npm run dev
 ```
+---
+### Documentation
+Documentation lives in: **docs/**
+
+Start here: [docs/index.md](./docs/index.md)
+
+The docs include:
+ - An overview of the design system
+ - A list of available components
+ - One Markdown page per component with:
+ - Overview
+ - Usage
+ - TSX source
+ - CSS source
+
+---
+### Design source
+The components in this repository are based on a Figma design file:
+ - [Design System Figma](https://www.figma.com/design/8ejtbRK1mcwy8gEwYDzYJt/ED-hackathon-2026-Design-System?node-id=286-4542&p=f&t=nRBNCYb6Q4ZCfgbp-0)
