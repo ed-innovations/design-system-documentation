@@ -12,9 +12,13 @@
   width: 100%;
   max-width: 375px;
   aspect-ratio: 375 / 812;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #efeff4;
   border-radius: 20px;
   overflow: hidden;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 /* --- Header --- */

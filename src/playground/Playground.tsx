@@ -2,7 +2,7 @@ import { Login } from '../components'
 
 export function Playground() {
     return (
-        <div>
+        <div className={"playground"}>
             <Login />
         </div>
     )
