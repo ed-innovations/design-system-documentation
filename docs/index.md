@@ -24,6 +24,9 @@ a consistent visual style.
 ---
 ## Component list
 [Login](./components/login.md)
+[Listing](./components/listing.md)
+[Notification](./components/notification.md)
+[Large Card](./components/card-lg.md)
 
 ---
 ## How to use components
