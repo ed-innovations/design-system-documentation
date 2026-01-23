@@ -1,4 +1,4 @@
-import {CardLg, Login, Notification} from '../components'
+import {CardLg, Login, Notification, Listing} from '../components'
 
 export function Playground() {
     return (
@@ -13,10 +13,10 @@ export function Playground() {
             {/*    onDecline={() => alert('Declined')}*/}
             {/*/>*/}
 
-            <div className="card-lg-wrapper">
-                <CardLg />
-            </div>
-
+            {/*<div className="card-lg-wrapper">*/}
+            {/*    <CardLg />*/}
+            {/*</div>*/}
+            <Listing />
         </div>
     )
 }
