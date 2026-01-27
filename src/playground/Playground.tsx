@@ -13,10 +13,10 @@ export function Playground() {
             {/*    onDecline={() => alert('Declined')}*/}
             {/*/>*/}
 
-            {/*<div className="card-lg-wrapper">*/}
-            {/*    <CardLg />*/}
-            {/*</div>*/}
-            <Listing />
+            <div className="card-lg-wrapper">
+                <CardLg />
+            </div>
+            {/*<Listing />*/}
         </div>
     )
 }

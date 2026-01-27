@@ -2,8 +2,8 @@
 
 This repository contains a **small, self-contained design system** built with **React, TypeScript, and Vite**.
 
-It is intended for an **easy usage** setup, where you can:
-- Explore ready-made UI components
+It is intended for an **easy** setup, where you can:
+- Explore ready UI components
 - Preview them locally in a playground
 - Copy, modify, and compose them quickly
 - Follow clear, lightweight documentation
@@ -13,9 +13,9 @@ It is intended for an **easy usage** setup, where you can:
 ## What’s inside
 
 ### Components
-Reusable UI components implemented in React + TypeScript.
 
-All components live in: **src/components/**
+The code lives in: [/src/components/](./src/components/README.md) \
+Or take a look into the [component catalog](./docs/catalog/index.md), where you can select from the preview.
 
 They are designed to be:
 - Self-contained
@@ -23,6 +23,20 @@ They are designed to be:
 - Easy to copy into another project
 - Visually consistent with the Figma design system
 
+---
+### Documentation
+Documentation lives in: **docs/**
+
+Start here: [/docs/index.md](./docs/index.md)
+
+The docs include:
+- An overview of the design system
+- A list of available components
+- One Markdown page per component with:
+- Overview
+- Usage
+- TSX source
+- CSS source
 ---
 
 ### Playground
@@ -43,20 +57,6 @@ Run locally with:
     npm install
     npm run dev
 ```
----
-### Documentation
-Documentation lives in: **docs/**
-
-Start here: [docs/index.md](./docs/index.md)
-
-The docs include:
- - An overview of the design system
- - A list of available components
- - One Markdown page per component with:
- - Overview
- - Usage
- - TSX source
- - CSS source
 
 ---
 ### Design source
