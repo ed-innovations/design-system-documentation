@@ -1,4 +1,4 @@
-[Back](../index.md)
+[Back](../README.md)
 # Login
 
 The **Login** component represents a mobile-first login screen based on

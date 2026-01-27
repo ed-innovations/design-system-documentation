@@ -1,4 +1,4 @@
-[Back](../index.md)
+[Back](../README.md)
 # Listing
 
 The **Listing** component represents a product listing card with an image,

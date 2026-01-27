@@ -3,7 +3,7 @@
 The goal of this design system is to provide **ready-to-use UI components**
 that you can **copy, tweak, and compose quickly** while keeping
 a consistent visual style. \
-Just select the component from the [component list](#component-list) to go directly to its documentation page, or browse the [catalog](./catalog/index.md) and select a component from the preview.
+Just select the component from the [component list](#component-list) to go directly to its documentation page, or browse the [catalog](./catalog/README) and select a component from the preview.
 ---
 ## Component list
 [Login](./components/login.md) \

@@ -14,8 +14,8 @@ It is intended for an **easy** setup, where you can:
 
 ### Components
 
-The code lives in: [/src/components/](./src/components/README.md) \
-Or take a look into the [component catalog](./docs/catalog/index.md), where you can select from the preview.
+- Take a look into the [component catalog](./docs/catalog/README.md)
+- The code lives in: [/src/components/](./src/components/README.md)
 
 They are designed to be:
 - Self-contained
@@ -27,7 +27,7 @@ They are designed to be:
 ### Documentation
 Documentation lives in: **docs/**
 
-Start here: [/docs/index.md](./docs/index.md)
+Start here: [/docs/README.md](./docs/README.md)
 
 The docs include:
 - An overview of the design system

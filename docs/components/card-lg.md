@@ -1,4 +1,4 @@
-[Back](../index.md)
+[Back](../README.md)
 # Card-lg
 
 The **Card-lg** component represents a premium pricing/plan card with a title,

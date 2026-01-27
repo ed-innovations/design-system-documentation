@@ -1,4 +1,4 @@
-[Back](../index.md)
+[Back](../README.md)
 # Notification
 
 The **Notification** component represents a compact, inline notification
