@@ -1,7 +1,7 @@
 [back](../index.md)
 # Component Catalog
 
-This page provides a visual overview of available UI components in this design system. Explore the components below, and select the one you want to use.
+This page provides a visual overview of available UI components in this design system. Explore the components below, and select the one you want to use. \
 [Login](#login) \
 [Listing](#listing) \
 [Notification](#notification) \
