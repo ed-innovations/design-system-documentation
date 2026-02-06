@@ -6,10 +6,15 @@ a consistent visual style. \
 Just select the component from the [component list](#component-list) to go directly to its documentation page, or browse the [catalog](./catalog/README) and select a component from the preview.
 ---
 ## Component list
+[Header Banner](./components/header-banner.md) \
 [Login](./components/login.md) \
+[Sign up](./components/signup.md) \
 [Listing](./components/listing.md) \
 [Notification](./components/notification.md) \
-[Large Card](./components/card-lg.md) 
+[Large Card](./components/card-lg.md) \
+[Card CTA](./components/card-cta.md) \
+[Upload](./components/upload.md) \
+[TextInput](./components/text-input.md) 
 
 ---
 ## How to use components

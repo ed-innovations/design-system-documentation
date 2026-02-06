@@ -2,3 +2,8 @@ export {default as Login} from './Login/Login';
 export {default as Notification} from './Notification/Notification';
 export {default as CardLg} from './Card-lg/Card-lg';
 export {default as Listing} from './Listing/Listing';
+export {default as Upload} from './Upload/Upload';
+export {default as Signup} from './Signup/Signup';
+export {default as TextInput} from './TextInput/TextInput';
+export {default as HeaderBanner} from './HeaderBanner/HeaderBanner';
+export {default as CardCTA} from './Card-CTA/Card-CTA';

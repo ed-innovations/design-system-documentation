@@ -1,0 +1,138 @@
+.card-cta-wrapper {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.card-cta {
+  width: 100%;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-cta-main {
+  background-color: #f3f5f8;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.card-cta-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-cta-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #12293b;
+  margin: 0;
+  letter-spacing: -0.16px;
+}
+
+.card-cta-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #9db2c8;
+  margin: 0;
+}
+
+.card-cta-chart {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-cta-value {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%);
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+
+  color: #12293b;
+
+  pointer-events: none;
+  text-shadow: 0 2px 8px rgba(18, 41, 59, 0.15);
+}
+
+
+.card-cta-chart img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.card-cta-footer {
+  background-color: #f3f5f8;
+  border-radius: 10px;
+  padding: 12px 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+
+.card-cta-button-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #12293b;
+}
+
+
+.card-cta-button {
+  background-color: #2870ed;
+  border: none;
+  border-radius: 6px;
+  width: 45px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.2s ease;
+}
+
+.card-cta-button:hover {
+  background-color: #1f52b5;
+}
+
+.card-cta-button:active {
+  background-color: #183d8b;
+}
+
+.card-cta-button img {
+  width: 20px;
+  height: 20px;
+}

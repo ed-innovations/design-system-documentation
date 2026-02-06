@@ -1,0 +1,136 @@
+.textinput-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+
+.textinput-container {
+  position: relative;
+  width: clamp(60%, 70vw, 900px);
+}
+
+
+
+.textinput-bg {
+  position: absolute;
+  inset: 0;
+  background-color: #f3f5f8;
+  border-radius: 10px;
+  z-index: 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.textinput-content {
+  position: relative;
+  z-index: 1;
+  padding: clamp(16px, 3vw, 24px) clamp(16px, 3vw, 24px);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.textinput-field {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #333333;
+  letter-spacing: -0.16px;
+  box-sizing: border-box;
+  transition: color 0.3s ease;
+}
+
+.textinput-field::placeholder {
+  color: #9fa4bc;
+  font-weight: 400;
+}
+
+.textinput-field:focus {
+  outline: none;
+  color: #333333;
+}
+
+.textinput-field:focus::placeholder {
+  color: transparent;
+}
+
+.textinput-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.textinput-action-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: #d0e0fb;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.textinput-action-btn:hover {
+  background-color: #b8d0f7;
+  transform: scale(1.05);
+}
+
+.textinput-action-btn:active {
+  background-color: #a0c4f5;
+  transform: scale(0.95);
+}
+
+.textinput-action-btn:focus {
+  outline: 2px solid #2870ed;
+  outline-offset: 2px;
+}
+
+.textinput-send-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: #2870ed;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.textinput-send-btn:hover {
+  background-color: #1e5bb3;
+  transform: scale(1.05);
+}
+
+.textinput-send-btn:active {
+  background-color: #154294;
+  transform: scale(0.95);
+}
+
+.textinput-send-btn:focus {
+  outline: 2px solid #2870ed;
+  outline-offset: 2px;
+}
+
+.textinput-send-icon {
+  display: block;
+  color: white;
+}
