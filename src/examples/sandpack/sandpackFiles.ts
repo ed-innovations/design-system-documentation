@@ -31,9 +31,20 @@ const sandpackSupportFiles = import.meta.glob<string>(
 export type ExampleMeta = { id: string; title: string; appFsPath: string };
 
 export const examples: ExampleMeta[] = [
-    { id: "text-input", title: "TextInput", appFsPath: "/src/examples/text-input/App.tsx" },
-    { id: "signup", title: "Signup", appFsPath: "/src/examples/signup/App.tsx" },
+    { id: "button", title: "Button", appFsPath: "/src/examples/button/App.tsx" },
+    { id: "card-cta", title: "Card CTA", appFsPath: "/src/examples/card-cta/App.tsx" },
+    { id: "card-lg", title: "Card Large", appFsPath: "/src/examples/card-lg/App.tsx" },
+    { id: "confirmation-box", title: "Confirmation Box", appFsPath: "/src/examples/confirmation-box/App.tsx" },
+    { id: "header-banner", title: "Header Banner", appFsPath: "/src/examples/header-banner/App.tsx" },
     { id: "listing", title: "Listing", appFsPath: "/src/examples/listing/App.tsx" },
+    { id: "login", title: "Login", appFsPath: "/src/examples/login/App.tsx" },
+    { id: "notification", title: "Notification", appFsPath: "/src/examples/notification/App.tsx" },
+    { id: "popup", title: "Popup", appFsPath: "/src/examples/popup/App.tsx" },
+    { id: "signup", title: "Signup", appFsPath: "/src/examples/signup/App.tsx" },
+    { id: "text-input", title: "TextInput", appFsPath: "/src/examples/text-input/App.tsx" },
+    { id: "toast", title: "Toast", appFsPath: "/src/examples/toast/App.tsx" },
+    { id: "toggle", title: "Toggle", appFsPath: "/src/examples/toggle/App.tsx" },
+    { id: "upload", title: "Upload", appFsPath: "/src/examples/upload/App.tsx" },
 ];
 
 export function buildSandpackFiles(appFsPath: string) {
