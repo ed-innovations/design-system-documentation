@@ -1,7 +1,8 @@
 import { Playground } from './playground/Playground'
+import {PlaygroundSandpack} from "./PlaygroundSandpack.tsx";
 
 function App() {
-    return <Playground />
+    return <PlaygroundSandpack/>
 }
 
 export default App

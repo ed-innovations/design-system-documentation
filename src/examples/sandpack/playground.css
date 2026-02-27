@@ -1,0 +1,12 @@
+.playground {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+}
+
+/* Optional: give components some breathing room on small screens */
+.playground > * {
+    width: 100%;
+    max-width: 900px;
+}
