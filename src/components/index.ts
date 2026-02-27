@@ -1,3 +1,8 @@
+export {default as Button} from './Button/Button';
+export {default as Toast} from './Toast/Toast';
+export {default as Popup} from './Popup/Popup';
+export {default as Toggle} from './Toggle/Toggle';
+export {default as ConfirmationBox} from './Confirmation-box/Confirmation-box';
 export {default as Login} from './Login/Login';
 export {default as Notification} from './Notification/Notification';
 export {default as CardLg} from './Card-lg/Card-lg';

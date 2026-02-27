@@ -2,6 +2,11 @@
 # Component Catalog
 
 This page provides a visual overview of available UI components in this design system. Explore the components below, and select the one you want to use. \
+[Button](#button) \
+[Toast](#toast) \
+[Popup](#popup) \
+[Toggle](#toggle) \
+[Confirmation Box](#confirmation-box) \
 [Header Banner](#header-banner) \
 [Login](#login) \
 [Sign up](#sign-up) \
@@ -11,6 +16,31 @@ This page provides a visual overview of available UI components in this design s
 [Card CTA](#card-cta) \
 [Upload](#upload) \
 [TextInput](#textinput)
+
+---
+## Button
+[Click to view component details](../components/button.md)
+![Button component UI](../images/button.png)
+
+---
+## Toast
+[Click to view component details](../components/toast.md)
+![Toast component UI](../images/toast.png)
+
+---
+## Popup
+[Click to view component details](../components/popup.md)
+![Popup component UI](../images/popup.png)
+
+---
+## Toggle
+[Click to view component details](../components/toggle.md)
+![Toggle component UI](../images/toggle.png)
+
+---
+## Confirmation Box
+[Click to view component details](../components/confirmation-box.md)
+![Confirmation Box component UI](../images/confirmation-box.png)
 
 ---
 ## Header Banner

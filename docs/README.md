@@ -6,6 +6,11 @@ a consistent visual style. \
 Just select the component from the [component list](#component-list) to go directly to its documentation page, or browse the [catalog](./catalog/README) and select a component from the preview.
 ---
 ## Component list
+[Button](./components/button.md) \
+[Toast](./components/toast.md) \
+[Popup](./components/popup.md) \
+[Toggle](./components/toggle.md) \
+[Confirmation Box](./components/confirmation-box.md) \
 [Header Banner](./components/header-banner.md) \
 [Login](./components/login.md) \
 [Sign up](./components/signup.md) \

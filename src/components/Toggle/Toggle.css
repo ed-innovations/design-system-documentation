@@ -1,0 +1,88 @@
+/* --- Playground-safe centering --- */
+.toggle-wrapper {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+/* --- Toggle Container --- */
+.toggle-container {
+  display: flex;
+  gap: 0;
+  background-color: #E4EAF0;
+  border-radius: 66px;
+  padding: 0;
+  width: fit-content;
+}
+
+/* --- Toggle Button --- */
+.toggle-button {
+  flex: 1;
+  padding: 12px 28px;
+  
+  background: none;
+  border: none;
+  border-radius: 46px;
+  
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  cursor: pointer;
+  
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+/* --- Active State --- */
+.toggle-button.active {
+  background-color: #2870ED;
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(40, 112, 237, 0.2);
+}
+
+.toggle-button.active .toggle-text {
+  color: #FFFFFF;
+}
+
+/* --- Inactive State --- */
+.toggle-button.inactive {
+  background-color: transparent;
+  color: #2870ED;
+  opacity: 0.77;
+}
+
+.toggle-button.inactive .toggle-text {
+  color: #2870ED;
+  opacity: 1;
+}
+
+/* --- Toggle Text --- */
+.toggle-text {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  display: block;
+  white-space: nowrap;
+}
+
+/* --- Hover State --- */
+.toggle-button:hover {
+  opacity: 0.9;
+}
+
+.toggle-button.active:hover {
+  opacity: 1;
+  background-color: #1e5ad4;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 480px) {
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    min-width: 100px;
+  }
+}
